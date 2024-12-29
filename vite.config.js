@@ -7,7 +7,14 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vite.dev/config/
 export default defineConfig({
     base: '/daily-meals-app/',
-    plugins: [vue(), vueDevTools()],
+    plugins: [
+        vue({
+            transformAssetUrls: {
+                base: '/daily-meals-app/',
+            },
+        }),
+        vueDevTools(),
+    ],
     resolve: {
         alias: {
             '@': fileURLToPath(new URL('./src', import.meta.url)),
