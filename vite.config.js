@@ -6,11 +6,11 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-    base: '/daily-meals-app/',
+    base: 'https://ivcho-varna.github.io/daily-meals-app/',
     plugins: [
         vue({
             transformAssetUrls: {
-                base: '/daily-meals-app/',
+                base: 'https://ivcho-varna.github.io/daily-meals-app/',
             },
         }),
         vueDevTools(),
