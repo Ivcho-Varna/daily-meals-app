@@ -22,7 +22,6 @@
 import SectionCategories from '@/components/SectionCategories.vue'
 import SectionAreas from '@/components/SectionAreas.vue'
 import Hero from '@/components/Hero.vue'
-import Features from '@/components/Features.vue'
 </script>
 
 <style lang="scss">
