@@ -6,6 +6,8 @@
 
 Фак. Номер: 223010020
 
+Демо: https://ivcho-varna.github.io/daily-meals-app/?#/
+
 ## Изисквания
 - min node v21.6.1
 - min npm 10.2.4
