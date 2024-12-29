@@ -7,6 +7,10 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vite.dev/config/
 export default defineConfig({
     base: '/daily-meals-app/',
+    build: {
+        outDir: './docs',
+        emptyOutDir: true,
+    },
     plugins: [vue(), vueDevTools()],
     resolve: {
         alias: {
