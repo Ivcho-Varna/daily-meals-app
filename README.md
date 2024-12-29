@@ -1,28 +1,24 @@
-# healthy-recipes
+# Daily meals
 
-This template should help get you started developing with Vue 3 in Vite.
+Курсов проект по "Разработка на уеб приложения"
 
-## Recommended IDE Setup
+Студент: Иво Георгиев
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Фак. Номер: 223010020
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Инсталация на npm пакети
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Компилиране на проекта за development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Компилиране на проекта за production
 
 ```sh
 npm run build
